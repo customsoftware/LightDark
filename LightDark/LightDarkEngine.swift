@@ -30,12 +30,12 @@ class AmbientChangeEngine {
         }
     }
     
-    var lastLight: CGFloat = 0
+    var lastLight: CGFloat
     var defaultTint = UIApplication.shared.delegate?.window??.tintColor
     
     init() {
-        registerForNotifications()
         lastLight = UIScreen.main.brightness
+        registerForNotifications()
         restoreSettings()
     }
     
