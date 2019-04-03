@@ -13,6 +13,12 @@
 		903B9CA5224DD793005BC2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903B9CA4224DD793005BC2A0 /* Assets.xcassets */; };
 		903B9CA8224DD793005BC2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903B9CA6224DD793005BC2A0 /* LaunchScreen.storyboard */; };
 		903B9CB3224DD794005BC2A0 /* LightDarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B9CB2224DD794005BC2A0 /* LightDarkTests.swift */; };
+		903B9CBE224DD7AC005BC2A0 /* LightDarkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B9CBD224DD7AC005BC2A0 /* LightDarkEngine.swift */; };
+		903B9CC2224FA6C0005BC2A0 /* AmbientNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B9CC1224FA6C0005BC2A0 /* AmbientNavigationViewController.swift */; };
+		9050C45B2255358D00699043 /* AmbientLightEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050C45A2255358D00699043 /* AmbientLightEnums.swift */; };
+		9050C45D225535ED00699043 /* AmbientLightProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050C45C225535ED00699043 /* AmbientLightProtocols.swift */; };
+		9050C45F2255364B00699043 /* AmbientLightStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050C45E2255364B00699043 /* AmbientLightStructs.swift */; };
+		9050C4612255368C00699043 /* AmbientLightExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050C4602255368C00699043 /* AmbientLightExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		903B9CAE224DD794005BC2A0 /* LightDarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightDarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		903B9CB2224DD794005BC2A0 /* LightDarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightDarkTests.swift; sourceTree = "<group>"; };
 		903B9CB4224DD794005BC2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903B9CBD224DD7AC005BC2A0 /* LightDarkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightDarkEngine.swift; sourceTree = "<group>"; };
+		903B9CC1224FA6C0005BC2A0 /* AmbientNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientNavigationViewController.swift; sourceTree = "<group>"; };
+		9050C45A2255358D00699043 /* AmbientLightEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightEnums.swift; sourceTree = "<group>"; };
+		9050C45C225535ED00699043 /* AmbientLightProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightProtocols.swift; sourceTree = "<group>"; };
+		9050C45E2255364B00699043 /* AmbientLightStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightStructs.swift; sourceTree = "<group>"; };
+		9050C4602255368C00699043 /* AmbientLightExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,12 @@
 				903B9CA4224DD793005BC2A0 /* Assets.xcassets */,
 				903B9CA6224DD793005BC2A0 /* LaunchScreen.storyboard */,
 				903B9CA9224DD793005BC2A0 /* Info.plist */,
+				903B9CBD224DD7AC005BC2A0 /* LightDarkEngine.swift */,
+				9050C4602255368C00699043 /* AmbientLightExtensions.swift */,
+				9050C45E2255364B00699043 /* AmbientLightStructs.swift */,
+				903B9CC1224FA6C0005BC2A0 /* AmbientNavigationViewController.swift */,
+				9050C45A2255358D00699043 /* AmbientLightEnums.swift */,
+				9050C45C225535ED00699043 /* AmbientLightProtocols.swift */,
 			);
 			path = LightDark;
 			sourceTree = "<group>";
@@ -197,8 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9050C45B2255358D00699043 /* AmbientLightEnums.swift in Sources */,
 				903B9CA0224DD790005BC2A0 /* ViewController.swift in Sources */,
+				9050C45F2255364B00699043 /* AmbientLightStructs.swift in Sources */,
+				903B9CBE224DD7AC005BC2A0 /* LightDarkEngine.swift in Sources */,
+				9050C45D225535ED00699043 /* AmbientLightProtocols.swift in Sources */,
 				903B9C9E224DD790005BC2A0 /* AppDelegate.swift in Sources */,
+				903B9CC2224FA6C0005BC2A0 /* AmbientNavigationViewController.swift in Sources */,
+				9050C4612255368C00699043 /* AmbientLightExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
