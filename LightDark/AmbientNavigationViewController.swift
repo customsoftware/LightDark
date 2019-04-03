@@ -42,6 +42,4 @@ extension AmbientNavigationViewController: AmbientStatus {
         
         setNeedsStatusBarAppearanceUpdate()
     }
-    
-    func setText(to color: UIColor) { }
 }
