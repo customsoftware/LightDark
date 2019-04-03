@@ -24,13 +24,16 @@ class AmbientNavigationViewController: UINavigationController {
     }
     
     @objc private func handleUIUpdate(_ notification: Notification) {
-        updateUIWith(notification)
+        handleStatusBarChangeNotification(notification)
     }
 }
 
-extension AmbientNavigationViewController: AmbientLightAware {
-    func setStatusBar(_ mode: DisplayMode) {
-        switch mode {
+extension AmbientNavigationViewController: AmbientStatus {
+    func handleStatusBarChangeNotification(_ notification: Notification) {
+        let userInfo = notification.userInfo
+        guard let colorSet = userInfo?[displayColorKey] as? DisplayColors else { return }
+        
+        switch colorSet.mode {
         case .dark:
             statusBarStyle = .lightContent
         case .light:
